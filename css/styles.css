@@ -1,0 +1,214 @@
+/* ------------------------------------General settings----------------------------------- */
+:root {
+  --main-title-color: #2E2F42;
+  --main-text-color: #434455;
+  --main-background-color: #2E2F42;
+  --accent-color: #404BBF;
+  --secondary-found: 'Raleway', sans-serif;
+}
+/* -----------------------------------Universal classes-------------------------------------- */
+body {
+  /* https://fonts.google.com font-family:'Roboto' */
+  font-family: "Roboto", sans-serif;
+}
+/* delete marker */
+.list {
+  list-style: none;
+}
+/* delete underline */
+.link {
+  text-decoration: none;
+}
+/* hover and focus effect link*/
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+/* main title attributes */
+.title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--main-title-color);
+}
+/* subtitle attributes */
+.subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--main-title-color);
+}
+/* main description attributes */
+.text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+/* main text attributes */
+
+/* fading title effect */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.btn {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+}
+/* hover and focus effect button*/
+.btn:hover,
+.btn:focus {
+  background: var(--accent-color);
+}
+
+/******************************* Main Page **** ************************/
+/* -------------------------------Header-------------------------------- */
+.header-logo {
+  text-decoration: none;
+  font-family: var(--secondary-found);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2E2F42;
+}
+.header-logo span {
+  font-family: var(--secondary-found);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4D5AE5;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.header-menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2E2F42;
+}
+.header-address-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/* ----------------------------Hero section----------------------- */
+.hero {
+  background: var(--main-background-color);
+}
+
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+}
+.hero-button {
+  background: #4D5AE5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: #FFFFFF;
+}
+ /* ------------------------Basic principles section ---------------------------*/
+/* .principles {
+  background: #E5E5E5;
+} */
+
+
+/* -- What are we doing section -- */
+/* .work {
+background: #E5E5E5;
+} */
+
+/* -- Our Team section -- */
+.team {
+  background: #F4F4FD;
+}
+.team-subtitle {
+  text-align: center;
+}
+.team-description {
+  text-align: center;
+}
+/* ----------------------------- footer ------------------------------*/
+.footer {
+  background: var(--main-background-color);
+}
+.footer-logo {
+  text-decoration: none;
+  font-family: var(--secondary-found);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.67;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #F4F4FD;
+}
+.footer-logo span{
+  font-family: var(--secondary-found);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.67;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4D5AE5;
+}
+
+.footer-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #E7E9FC;
+}
+/* ************************Portfolio Page ************************/
+/* --------------------- Portfolio filter buttons---------------------------- */
+
+.portfolio-button {
+  background: #F4F4FD;
+  border: 1px solid #E7E9FC;
+  border-radius: 4px;
+  text-align: center;
+  color: #4D5AE5;
+}
+
+/* ---------------------- Row examples of projects ------------------------- */
+
+
