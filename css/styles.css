@@ -85,11 +85,13 @@ body {
 .btn:hover,
 .btn:focus {
   background: var(--accent-color);
+color: var(--second-text-color);
 }
 
 /******************************* Main Page **** ************************/
 /* -------------------------------Header-------------------------------- */
-.header-logo {
+.header-logo,
+.header-logo span {
   text-decoration: none;
   font-family: var(--secondary-found);
   font-size: 18px;
@@ -101,27 +103,16 @@ body {
   color: inherit;
 }
 .header-logo span {
-  font-family: var(--secondary-found);
-  font-size: 18px;
-  line-height: 1.33;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: var(--fourth-text-color);
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .header-menu-link {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--third-text-color);
 }
-.header-address-link {
+.header-address-link,
+.header-menu-link {
   font-style: normal;
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--third-text-color);
 }
@@ -139,8 +130,6 @@ body {
 }
 .hero-button {
   background: var(--third-background-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
   color: var(--second-text-color);
 }
  /* ------------------------Basic principles section ---------------------------*/
@@ -159,7 +148,8 @@ body {
 .footer {
   background: var(--first-background-color);
 }
-.footer-logo {
+.footer-logo,
+.footer-logo span {
   text-decoration: none;
   font-family: var(--secondary-found);
   font-size: 18px;
@@ -171,16 +161,8 @@ body {
   color: var(--fifth-text-color);
 }
 .footer-logo span{
-  font-family: var(--secondary-found);
-  font-size: 18px;
-  line-height: 1.67;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: var(--fourth-text-color);
 }
-
 .footer-description {
   color: var(--sixth-text-color);
 }
@@ -196,5 +178,3 @@ body {
 }
 
 /* ---------------------- Row examples of projects ------------------------- */
-
-
